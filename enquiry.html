@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Enquiry | Nourish and Bloom, Sandton</title>
+</head>
+<body>
+
+    <!-- ============ HEADER + NAVIGATION ============ -->
+    <header>
+        <h1>Nourish and Bloom</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="menu.html">Menu</a></li>
+                <li><a href="enquiry.html">Enquiry</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <!-- ============ PAGE BANNER ============ -->
+        <section>
+            <h2>Tell Us What You Are Planning</h2>
+            <p>Catering, private terrace hire, workshop packages, or standing office orders. Send us details and we'll reply within one working day.</p>
+        </section>
+
+        <!-- ============ SERVICES + FORM ============ -->
+        <section>
+            <h2>What We Offer</h2>
+            <p><strong>Breakfast Catering:</strong> Platters delivered anywhere in the Sandton CBD from 07:00.</p>
+            <p><strong>Private Terrace Hire:</strong> Rooftop seating for up to 60 guests on weekday evenings and Sundays.</p>
+            <p><strong>Garden Workshops:</strong> Herb-growing and fermentation sessions for small groups.</p>
+            <p><strong>Office Subscriptions:</strong> Weekly cold-press juice deliveries.</p>
+
+            <!-- Online booking / enquiry form — posts to the /api/public/enquiry endpoint -->
+            <form action="/api/public/enquiry" method="post">
+                <div>
+                    <label for="name">Full Name</label>
+                    <input type="text" id="name" name="name" required />
+                </div>
+
+                <div>
+                    <label for="email">Email Address</label>
+                    <input type="email" id="email" name="email" required />
+                </div>
+
+                <div>
+                    <label for="phone">Contact Number</label>
+                    <input type="tel" id="phone" name="phone" placeholder="011 000 0000" />
+                </div>
+
+                <div>
+                    <label for="type">Type of Enquiry</label>
+                    <select id="type" name="type">
+                        <option value="catering">Breakfast catering</option>
+                        <option value="terrace">Private terrace hire</option>
+                        <option value="workshop">Garden workshop</option>
+                        <option value="subscription">Office subscription</option>
+                        <option value="other">Something else</option>
+                    </select>
+                </div>
+
+                <div>
+                    <label for="guests">Number of Guests</label>
+                    <input type="number" id="guests" name="guests" min="1" max="60" value="10" />
+                </div>
+
+                <div>
+                    <label for="date">Preferred Date</label>
+                    <input type="date" id="date" name="date" required />
+                </div>
+
+                <fieldset>
+                    <legend>Dietary Requirements</legend>
+                    <label><input type="checkbox" name="diet" value="vegan" /> Vegan</label>
+                    <label><input type="checkbox" name="diet" value="gluten-free" /> Gluten Free</label>
+                    <label><input type="checkbox" name="diet" value="halaal" /> Halaal</label>
+                    <label><input type="checkbox" name="diet" value="nut-free" /> Nut Free</label>
+                </fieldset>
+
+                <div>
+                    <label for="message">Details of Your Enquiry</label>
+                    <textarea id="message" name="message" required></textarea>
+                </div>
+
+                <button type="submit">Send Enquiry</button>
+            </form>
+        </section>
+    </main>
+
+    <!-- ============ FOOTER ============ -->
+    <footer>
+        <p>12 Maude Street, Sandton Central, Johannesburg, 2196</p>
+        <p>Hours: Mon–Fri: 06:30–18:00 | Sat: 07:30–16:00 | Sun: 08:00–14:00</p>
+        <p>&copy; 2026 Nourish and Bloom.</p>
+    </footer>
+
+</body>
+</html>
