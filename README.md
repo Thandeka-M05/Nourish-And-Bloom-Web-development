@@ -45,3 +45,14 @@ August 13 Created ReadMe Github
 August 14 Edited and changed ReadMe file in Github
 
 ## References
+Afrihost, 2026. Shared web hosting packages. [online] Available at: https://www.afrihost.com [Accessed 12 August 2026]. 
+
+Mozilla, 2026. HTML: Hypertext Markup Language. [online] MDN Web Docs. Available at: https://developer.mozilla.org/en-US/docs/Web/HTML [Accessed 12 August 2026]. 
+
+OpenStreetMap Contributors, 2026. OpenStreetMap. [online] Available at: https://www.openstreetmap.org [Accessed 12 August 2026]. 
+
+Specialty Coffee Association, 2025. Coffee Standards. [online] Available at: https://sca.coffee [Accessed 12 August 2026]. 
+
+Statistics South Africa, 2025. General Household Survey. Pretoria: Statistics South Africa. 
+
+W3C, 2026. Web Content Accessibility Guidelines (WCAG) 2.2. [online] Available at: https://www.w3.org/TR/WCAG22/ [Accessed 12 August 2026]. 
