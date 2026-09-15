@@ -46,6 +46,15 @@ To provide more research about the website I am doing.
 To add more to my GitHub by pushing multiple descriptive commits.
 To add more to my changelog section contains a record of development.
 
+## Part 2 — CSS Styling and Responsive Design
+### External stylesheet
+All five pages link one external stylesheet, ../CSS/stylesheet, using the naming
+convention lowercase-hyphenated for every class such as .site-header, .page-head,
+.menu-list, .form-note. The file is organised into fourteen commented
+sections: reset, design tokens, typography, layout helpers, header/navigation,
+hero and banners, buttons, cards, menu list, forms, contact, footer, planning
+helpers and media queries.
+
 ## Changelog
 August 13 Created ReadMe Github
 August 14 Edited and changed ReadMe file in Github
