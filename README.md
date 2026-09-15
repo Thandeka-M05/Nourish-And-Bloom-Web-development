@@ -102,6 +102,18 @@ Font sizes and spacing use rem and em, fluid values use clamp() with 'vw',
 widths use '%' and minmax(0, 1fr), and text measure uses 'ch' ('max-width:
 70ch'). No layout dimension is expressed in fixed pixels.
 
+## Responsive Layout Testing & Evidence
+*Desktop View (1200px+)
+<img width="1881" height="916" alt="Desktop view" src="https://github.com/user-attachments/assets/c8d43536-bd0d-43b8-97b5-21338f4fc2d1" />
+
+*Tablet View (768px)
+<img width="1107" height="907" alt="Tablet 1 view" src="https://github.com/user-attachments/assets/9976c2c8-073e-4be3-a19d-ac03aeaf470c" />
+<img width="1071" height="907" alt="Tablet 2 view" src="https://github.com/user-attachments/assets/816f5d79-cb5d-44b8-825c-94a92f2ce7ad" />
+
+*Mobile View (375px - 480px)
+<img width="582" height="897" alt="Mobile View" src="https://github.com/user-attachments/assets/f8e9e3ea-a5eb-4b21-96c8-e7413f553520" />
+
+
 ## Changelog
 August 13 Created ReadMe Github
 August 14 Edited and changed ReadMe file in Github
