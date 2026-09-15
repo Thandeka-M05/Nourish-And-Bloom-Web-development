@@ -74,6 +74,19 @@ Headings use a harmonious modular scale built with 'clamp()'
 desktop instead of jumping at a breakpoint, 'letter-spacing', 'font-weight',
 'line-height' and 'text-wrap: balance' are applied per level.
 
+## Layout structure
+CSS Grid handles the page layouts (.grid, .grid-2, .grid-3, footer
+columns) and Flexbox handles component-level alignment (header bar, navigation
+list, menu rows, buttons, checkbox rows). grid-template-columns,
+justify-content, align-items, gap and flex-direction are used throughout.
+
+## Visual styles and interactive states
+Colour, background-color, border, border-radius and box-shadow build the visual
+language. Interactive elements have :hover, :focus-visible and :active
+states, buttons lift and switch from marigold to coral, navigation links reveal
+a marigold underline, cards raise on hover, and form fields change border and
+background on hover/focus. A global :focus-visible outline keeps keyboard
+navigation obvious.
 
 ## Changelog
 August 13 Created ReadMe Github
