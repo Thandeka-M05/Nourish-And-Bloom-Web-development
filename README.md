@@ -40,6 +40,12 @@ follow in future submissions and edits to this README.
 ## Sitemap
 <image width="1472" height="752" alt="Nourish and Bloom Sitemap" src="https://github.com/user-attachments/assets/6b6917fc-fbf9-48e6-b234-f526bc3c6ade" />
 
+## Feedback on part 1
+What I needed to improve/fix in part is my proposal just needed to enhance and put more effort in part one.
+To provide more research about the website I am doing.
+To add more to my GitHub by pushing multiple descriptive commits.
+To add more to my changelog section contains a record of development.
+
 ## Changelog
 August 13 Created ReadMe Github
 August 14 Edited and changed ReadMe file in Github
