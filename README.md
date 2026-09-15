@@ -88,6 +88,20 @@ a marigold underline, cards raise on hover, and form fields change border and
 background on hover/focus. A global :focus-visible outline keeps keyboard
 navigation obvious.
 
+## Breakpoints
+
+| Tier    | Width          | Behaviour                                                          |
+| ------- | -------------- | ------------------------------------------------------------------ |
+| Mobile  | up to 600px    | Single column, full-width buttons, stacked menu rows, shorter hero |
+| Tablet  | 601px – 900px  | Two-column card grid, stacked text/image blocks, toggle navigation |
+| Desktop | 901px and up   | Full multi-column grids, horizontal navigation bar                 |
+| Wide    | 1400px and up  | Wider content measure (76rem)                                      |
+
+## Relative units
+Font sizes and spacing use rem and em, fluid values use clamp() with 'vw',
+widths use '%' and minmax(0, 1fr), and text measure uses 'ch' ('max-width:
+70ch'). No layout dimension is expressed in fixed pixels.
+
 ## Changelog
 August 13 Created ReadMe Github
 August 14 Edited and changed ReadMe file in Github
