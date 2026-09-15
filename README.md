@@ -55,6 +55,14 @@ sections: reset, design tokens, typography, layout helpers, header/navigation,
 hero and banners, buttons, cards, menu list, forms, contact, footer, planning
 helpers and media queries.
 
+### Base style and CSS reset
+The stylesheet opens with a reset that normalises `box-sizing`, clears default
+margins and padding, makes images and iframes block-level and fluid, and makes
+form controls inherit the page font. Base styles then set the site-wide font
+family, colour scheme, line height and background so every page starts from the
+same foundation. A `prefers-reduced-motion` block disables transitions for users
+who ask for less movement.
+
 ## Changelog
 August 13 Created ReadMe Github
 August 14 Edited and changed ReadMe file in Github
