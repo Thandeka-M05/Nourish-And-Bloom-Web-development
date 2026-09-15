@@ -65,8 +65,15 @@ who ask for less movement.
 
 ## Design tokens
 Colour, typography, spacing, layout, shadow and transition values are declared
-once as custom properties on 'Root'` and reused everywhere, so the cascade does
+once as custom properties on 'Root' and reused everywhere, so the cascade does
 the work and the number of selectors stays low.
+
+## Typography scale
+Headings use a harmonious modular scale built with 'clamp()'
+(Step 1 through step 4), so type grows smoothly between mobile and
+desktop instead of jumping at a breakpoint, 'letter-spacing', 'font-weight',
+'line-height' and 'text-wrap: balance' are applied per level.
+
 
 ## Changelog
 August 13 Created ReadMe Github
