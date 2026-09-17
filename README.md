@@ -115,8 +115,16 @@ widths use '%' and minmax(0, 1fr), and text measure uses 'ch' ('max-width:
 
 
 ## Changelog
-- **August 13** Created ReadMe Github
-- **August 14**  Edited and changed ReadMe file in Github
+-**Part 1**
+-**August 4**: Five HTML core pages built (index.html, about.html, menu.html, enquiry.html, contact.html).
+-**August 6**:Semantic HTML5 markup applied using structured tags (<header>, <nav>, <main>, <section>, <article>, <address>, <footer>) to maximize document accessibility.
+-**August 6**:Global navigation menu linked uniformly across all five pages for seamless site navigation
+-**August 10**Repository initialized with structured directory hierarchy (images/, css/, docs/) and initial README.md documentation.
+-**August 10**Git workflow established with standardized commit patterns and initial branch setup.
+-**August 12**Sitemap outlined defining key page hierarchy, navigation paths, and core user journeys.
+-**August 12**:Low-fidelity wireframes created for Desktop and Mobile layouts to map out page components and layout structure prior to styling.
+- **August 13**: Created ReadMe Github
+- **August 14**: Edited and changed ReadMe file in Github
 -**Part 2**
 - **August24 CSS reset added:** Integrated box-sizing, margin/padding clears, fluid media, and inherited form fonts at the top of `styles.css` for consistent cross-browser rendering.
 - **August 25: Design tokens expanded:** Added custom properties for spacing, radius, shadow, transition, and type-scale to `:root` to drive styling through variables and reduce selector counts.
