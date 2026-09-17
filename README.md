@@ -118,17 +118,17 @@ widths use '%' and minmax(0, 1fr), and text measure uses 'ch' ('max-width:
 August 13 Created ReadMe Github
 August 14 Edited and changed ReadMe file in Github
 Part 2
-*CSS reset added to the top of styles.css (box-sizing, margin/padding clear, fluid media, inherited form fonts) so browsers render the site consistently.
-Design tokens expanded: Spacing, radius, shadow, transition, and type-scale custom properties added to :root so styling is driven by variables and fewer selectors.
-Fluid typography scale introduced with clamp() (--step--1 … --step-4); fixed heading pixel sizes removed.
-Layout rebuilt on Grid and Flexbox with minmax(0, 1fr) tracks, token-based gap, logical properties (padding-inline, padding-block), and margin-inline: auto.
-Interactive states added:hover, :focus-visible, and :active on buttons, navigation links, cards, and every form control, plus a global focus ring for keyboard users.
-Breakpoints restructured from a single 860px query to mobile (≤600px), tablet (601–900px), desktop (901px+), and wide (1400px+) tiers, plus a print stylesheet.
-Two-column blocks now stack on tablet after testing showed a large empty gap beside the enquiry form at 768px.
-Relative units throughout: px replaced with rem, em, %, ch, vw, and clamp() for type, spacing, container widths, and section padding.
-Responsive images implemented: 800px and 1200px variants generated; hero uses <picture> with media conditions, other photos use srcset/sizes.
-Responsive testing evidence captured: 3 screenshots (3 pages × desktop/tablet/mobile) added to images/screenshots/ and embedded in this README.
-Content correction — two leftover @verdura.co.za email addresses on the contact page updated to @nourishandbloom.co.za.
+- **CSS reset added:** Integrated box-sizing, margin/padding clears, fluid media, and inherited form fonts at the top of `styles.css` for consistent cross-browser rendering.
+- **Design tokens expanded:** Added custom properties for spacing, radius, shadow, transition, and type-scale to `:root` to drive styling through variables and reduce selector counts.
+- **Fluid typography introduced:** Implemented a responsive scale using `clamp()` (`--step--1` to `--step-4`) and eliminated fixed heading pixel sizes.
+- **Modern layout architecture:** Rebuilt layout structures using CSS Grid and Flexbox with `minmax(0, 1fr)` tracks, token-based gaps, logical properties (`padding-inline`, `padding-block`), and `margin-inline: auto`.
+- **Enhanced interactive states:** Added `:hover`, `:focus-visible`, and `:active` styles to buttons, navigation links, cards, and all form controls, alongside a global focus ring for keyboard accessibility.
+- **Restructured breakpoints:** Replaced the single 860px media query with a tiered system for mobile (≤600px), tablet (601–900px), desktop (901px+), and wide (1400px+) views, and added a print stylesheet.
+- **Optimized tablet layouts:** Updated two-column blocks to stack on tablet screens after testing revealed a large empty gap next to the enquiry form at 768px.
+- **Adopted relative units:** Swapped out `px` values for `rem`, `em`, `%`, `ch`, `vw`, and `clamp()` across all typography, spacing, container widths, and section padding.
+- **Implemented responsive images:** Generated 800px and 1200px image variants, utilizing the `<picture>` element with media conditions for the hero section and `srcset`/`sizes` for other photos.
+- **Responsive testing evidence:** Captured and embedded 15 validation screenshots (5 pages across desktop, tablet, and mobile views) stored in the `images/screenshots/` directory.
+- **Content correction:** Updated two outdated `@verdura.co.za` email addresses to `@nourishandbloom.co.za` on the contact page.
 
 ## References
 Afrihost, 2026. Shared web hosting packages. [online] Available at: https://www.afrihost.com [Accessed 12 August 2026]. 
