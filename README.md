@@ -117,6 +117,18 @@ widths use '%' and minmax(0, 1fr), and text measure uses 'ch' ('max-width:
 ## Changelog
 August 13 Created ReadMe Github
 August 14 Edited and changed ReadMe file in Github
+Part 2
+-CSS reset added to the top of styles.css (box-sizing, margin/padding clear, fluid media, inherited form fonts) so browsers render the site consistently.
+Design tokens expanded: Spacing, radius, shadow, transition, and type-scale custom properties added to :root so styling is driven by variables and fewer selectors.
+Fluid typography scale introduced with clamp() (--step--1 … --step-4); fixed heading pixel sizes removed.
+Layout rebuilt on Grid and Flexbox with minmax(0, 1fr) tracks, token-based gap, logical properties (padding-inline, padding-block), and margin-inline: auto.
+Interactive states added:hover, :focus-visible, and :active on buttons, navigation links, cards, and every form control, plus a global focus ring for keyboard users.
+Breakpoints restructured from a single 860px query to mobile (≤600px), tablet (601–900px), desktop (901px+), and wide (1400px+) tiers, plus a print stylesheet.
+Two-column blocks now stack on tablet after testing showed a large empty gap beside the enquiry form at 768px.
+Relative units throughout: px replaced with rem, em, %, ch, vw, and clamp() for type, spacing, container widths, and section padding.
+Responsive images implemented — 800px and 1200px variants generated; hero uses <picture> with media conditions, other photos use srcset/sizes.
+Responsive testing evidence captured — 15 screenshots (5 pages × desktop/tablet/mobile) added to images/screenshots/ and embedded in this README.
+Content correction — two leftover @verdura.co.za email addresses on the contact page updated to @nourishandbloom.co.za.
 
 ## References
 Afrihost, 2026. Shared web hosting packages. [online] Available at: https://www.afrihost.com [Accessed 12 August 2026]. 
