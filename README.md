@@ -126,7 +126,7 @@ widths use '%' and minmax(0, 1fr), and text measure uses 'ch' ('max-width:
 - **August 13:** Created ReadMe Github
 - **August 14:** Edited and changed ReadMe file in Github
 - **Part 2**
-- **August24 CSS reset added:** Integrated box-sizing, margin/padding clears, fluid media, and inherited form fonts at the top of `styles.css` for consistent cross-browser rendering.
+- **August24: CSS reset added** Integrated box-sizing, margin/padding clears, fluid media, and inherited form fonts at the top of `styles.css` for consistent cross-browser rendering.
 - **August 25: Design tokens expanded:** Added custom properties for spacing, radius, shadow, transition, and type-scale to `:root` to drive styling through variables and reduce selector counts.
 - **September 1:Fluid typography introduced:** Implemented a responsive scale using `clamp()` (`--step--1` to `--step-4`) and eliminated fixed heading pixel sizes.
 - **September 2: Modern layout architecture:** Rebuilt layout structures using CSS Grid and Flexbox with `minmax(0, 1fr)` tracks, token-based gaps, logical properties (`padding-inline`, `padding-block`), and 'margin-inline: auto'.
@@ -142,7 +142,7 @@ widths use '%' and minmax(0, 1fr), and text measure uses 'ch' ('max-width:
 Afrihost, 2026. Shared web hosting packages. [online] Available at: https://www.afrihost.com [Accessed 12 August 2026]. 
 
 Coyier, C., 2026. _A Complete Guide to Flexbox._ [online] CSS-Tricks. Available at:
-  <https://css-tricks.com/snippets/css/a-guide-to-flexbox/> [Accessed 15 August 2026].
+  <https://css-tricks.com/snippets/css/a-guide-to-flexbox/> [Accessed 10 September 2026].
 
 Mozilla, 2026. HTML: Hypertext Markup Language. [online] MDN Web Docs. Available at: https://developer.mozilla.org/en-US/docs/Web/HTML [Accessed 12 August 2026]. 
 
@@ -152,22 +152,22 @@ Mozilla, 2026. _HTML: HyperText Markup Language._ [online] MDN Web Docs. Availab
 <https://developer.mozilla.org/en-US/docs/Web/HTML> [Accessed 15 August 2026].
 
 Mozilla, 2026. _CSS: Cascading Style Sheets._ [online] MDN Web Docs. Available at:
-  <https://developer.mozilla.org/en-US/docs/Web/CSS> [Accessed 15 August 2026].
+  <https://developer.mozilla.org/en-US/docs/Web/CSS> [Accessed 5 September 2026].
   
  Mozilla, 2026. _Using CSS custom properties (variables)._ [online] MDN Web Docs. Available at:
-  <https://developer.mozilla.org/en-US/docs/Web/CSS/Using_CSS_custom_properties> [Accessed 15 August 2026].
+  <https://developer.mozilla.org/en-US/docs/Web/CSS/Using_CSS_custom_properties> [Accessed 5 September 2026].
   
 Mozilla, 2026. _CSS Grid Layout._ [online] MDN Web Docs. Available at:
-  <https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_grid_layout> [Accessed 15 August 2026].
+  <https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_grid_layout> [Accessed 6 September 2026].
   
 Mozilla, 2026. _Responsive images._ [online] MDN Web Docs. Available at:
-  <https://developer.mozilla.org/en-US/docs/Web/HTML/Responsive_images> [Accessed 15 August 2026].
+  <https://developer.mozilla.org/en-US/docs/Web/HTML/Responsive_images> [Accessed 8 September 2026].
   
  Mozilla, 2026. _Using media queries._ [online] MDN Web Docs. Available at:
-  <https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_media_queries/Using_media_queries> [Accessed 15 August 2026].
+  <https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_media_queries/Using_media_queries> [Accessed 8 September 2026].
   
 OpenStreetMap Contributors, 2026. _OpenStreetMap._ [online] Available at:
-  <https://www.openstreetmap.org> [Accessed 15 August 2026]. Licensed under ODbL.
+  <https://www.openstreetmap.org> [Accessed 9 September 2026]. Licensed under ODbL.
   
 Specialty Coffee Association, 2025. Coffee Standards. [online] Available at: https://sca.coffee [Accessed 12 August 2026].
   
