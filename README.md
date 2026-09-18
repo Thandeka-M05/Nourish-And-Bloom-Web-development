@@ -164,7 +164,6 @@ OpenStreetMap Contributors, 2026. OpenStreetMap. [online] Available at: https://
   <https://www.w3.org/TR/css-values-4/> [Accessed 15 August 2026].
 - OpenStreetMap Contributors, 2026. _OpenStreetMap._ [online] Available at:
   <https://www.openstreetmap.org> [Accessed 15 August 2026]. Licensed under ODbL.
-- Statistics South Africa, 2025. _General Household Survey._ Pretoria: Stats SA.
 
 
 Specialty Coffee Association, 2025. Coffee Standards. [online] Available at: https://sca.coffee [Accessed 12 August 2026]. 
