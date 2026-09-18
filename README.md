@@ -139,22 +139,22 @@ widths use '%' and minmax(0, 1fr), and text measure uses 'ch' ('max-width:
 - **September 16:Content correction:** Updated two outdated '@verdura.co.za' email addresses to '@nourishandbloom.co.za' on the contact page.
 
 ## References
--Afrihost, 2026. Shared web hosting packages. [online] Available at: https://www.afrihost.com [Accessed 12 August 2026]. 
+Afrihost, 2026. Shared web hosting packages. [online] Available at: https://www.afrihost.com [Accessed 12 August 2026]. 
 
--Mozilla, 2026. HTML: Hypertext Markup Language. [online] MDN Web Docs. Available at: https://developer.mozilla.org/en-US/docs/Web/HTML [Accessed 12 August 2026]. 
+Mozilla, 2026. HTML: Hypertext Markup Language. [online] MDN Web Docs. Available at: https://developer.mozilla.org/en-US/docs/Web/HTML [Accessed 12 August 2026]. 
 
--OpenStreetMap Contributors, 2026. OpenStreetMap. [online] Available at: https://www.openstreetmap.org [Accessed 12 August 2026]. 
+OpenStreetMap Contributors, 2026. OpenStreetMap. [online] Available at: https://www.openstreetmap.org [Accessed 12 August 2026]. 
 
--Mozilla, 2026. _HTML: HyperText Markup Language._ [online] MDN Web Docs. Available at:
+Mozilla, 2026. _HTML: HyperText Markup Language._ [online] MDN Web Docs. Available at:
 <https://developer.mozilla.org/en-US/docs/Web/HTML> [Accessed 15 August 2026].
 
--Mozilla, 2026. _CSS: Cascading Style Sheets._ [online] MDN Web Docs. Available at:
+Mozilla, 2026. _CSS: Cascading Style Sheets._ [online] MDN Web Docs. Available at:
   <https://developer.mozilla.org/en-US/docs/Web/CSS> [Accessed 15 August 2026].
   
- -**Mozilla, 2026. _Using CSS custom properties (variables)._ [online] MDN Web Docs. Available at:
+ Mozilla, 2026. _Using CSS custom properties (variables)._ [online] MDN Web Docs. Available at:
   <https://developer.mozilla.org/en-US/docs/Web/CSS/Using_CSS_custom_properties> [Accessed 15 August 2026].
   
--Mozilla, 2026. _CSS Grid Layout._ [online] MDN Web Docs. Available at:
+Mozilla, 2026. _CSS Grid Layout._ [online] MDN Web Docs. Available at:
   <https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_grid_layout> [Accessed 15 August 2026].
   
 Mozilla, 2026. _Responsive images._ [online] MDN Web Docs. Available at:
