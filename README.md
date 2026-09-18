@@ -115,28 +115,50 @@ widths use '%' and minmax(0, 1fr), and text measure uses 'ch' ('max-width:
 
 
 ## Changelog
--**Part 1**
-- **August 4**:Five HTML core pages built (index.html, about.html, menu.html, enquiry.html, contact.html).
-- **August 6**:Semantic HTML5 markup applied using structured tags ('header', 'nav', 'main', 'section', 'article', 'address', 'footer') to maximize document accessibility.
-- **August 6**:Global navigation menu linked uniformly across all five pages for seamless site navigation
-- **August 10**:Repository initialized with structured directory hierarchy (images/, css/, docs/) and initial README.md documentation.
-- **August 10**:Git workflow established with standardized commit patterns and initial branch setup.
-- **August 12**:Sitemap outlined defining key page hierarchy, navigation paths, and core user journeys.
-- **August 12**:Low-fidelity wireframes created to map out page components and layout structure prior to styling.
-- **August 13:** Created ReadMe Github
-- **August 14:** Edited and changed ReadMe file in Github
-- **Part 2**
-- **August24: CSS reset added** Integrated box-sizing, margin/padding clears, fluid media, and inherited form fonts at the top of `styles.css` for consistent cross-browser rendering.
-- **August 25: Design tokens expanded:** Added custom properties for spacing, radius, shadow, transition, and type-scale to `:root` to drive styling through variables and reduce selector counts.
-- **September 1:Fluid typography introduced:** Implemented a responsive scale using `clamp()` (`--step--1` to `--step-4`) and eliminated fixed heading pixel sizes.
-- **September 2: Modern layout architecture:** Rebuilt layout structures using CSS Grid and Flexbox with `minmax(0, 1fr)` tracks, token-based gaps, logical properties (`padding-inline`, `padding-block`), and 'margin-inline: auto'.
-- **September 3: Enhanced interactive states:** Added ':hover',':focus-visible', and ':active' styles to buttons, navigation links, cards, and all form controls, alongside a global focus ring for keyboard accessibility.
-- **September 6: Restructured breakpoints:** Replaced the single 860px media query with a tiered system for mobile (≤600px), tablet (601–900px), desktop (901px+), and wide (1400px+) views, and added a print stylesheet.
-- **September 9: Optimized tablet layouts:** Updated two-column blocks to stack on tablet screens after testing revealed a large empty gap next to the enquiry form at 768px.
-- **September 12: Adopted relative units:** Swapped out 'px' values for 'rem', 'em', '%', 'ch', 'vw', and 'clamp()' across all typography, spacing, container widths, and section padding.
-- **September 14: Implemented responsive images:** Generated 800px and 1200px image variants, utilizing the `<picture>` element with media conditions for the hero section and `srcset`/`sizes` for other photos.
-- **September 16:Responsive testing evidence:** Captured and embedded 15 validation screenshots (5 pages across desktop, tablet, and mobile views) stored in the `images/screenshots/` directory.
-- **September 16:Content correction:** Updated two outdated '@verdura.co.za' email addresses to '@nourishandbloom.co.za' on the contact page.
+## 📋 Changelog
+
+### Part 1: Initial Development & Structure
+
+* **v0.1.0** (August 4, 2026)
+  * **Five HTML core pages built** (index.html, about.html, menu.html, enquiry.html, contact.html`).
+* **v0.2.0** (August 6, 2026)
+  * **Semantic HTML5 markup applied** using structured tags (`<header>`, `<nav>`, `<main>`, `<section>`, `<article>`, `<address>`, `<footer>`) to maximize document accessibility.
+  * **Global navigation menu linked** uniformly across all five pages for seamless site navigation.
+* **v0.3.0** (August 10, 2026)
+  * **Repository initialized** with structured directory hierarchy (`images/`, `css/`, `docs/`) and initial `README.md` documentation.
+  * **Git workflow established** with standardized commit patterns and initial branch setup.
+* **v0.4.0** (August 12, 2026)
+  * **Sitemap outlined** defining key page hierarchy, navigation paths, and core user journeys.
+  * **Low-fidelity wireframes created** to map out page components and layout structure prior to styling.
+* **v0.5.0** (August 13, 2026)
+  * **GitHub README initialized** with core project specifications and documentation outline.
+* **v0.6.0** (August 14, 2026)
+  * **GitHub README edited** and refined for clarity, layout structure, and design documentation.
+
+### Part 2: CSS Refinement, Responsive Design & Polish
+
+* **v1.0.0** (August 24, 2026)
+  * **CSS reset added:** Integrated box-sizing, margin/padding clears, fluid media, and inherited form fonts at the top of styles.css for consistent cross-browser rendering.
+* **v1.1.0** (August 25, 2026)
+  * **Design tokens expanded:** Added custom properties for spacing, radius, shadow, transition, and type-scale to root to drive styling through variables and reduce selector counts.
+* **v1.2.0** (September 1, 2026)
+  * **Fluid typography introduced**:Implemented a responsive scale using 'clamp()' (step 1 to step-4') and eliminated fixed heading pixel sizes.
+* **v1.3.0** (September 2, 2026)
+  * **Modern layout architecture:** Rebuilt layout structures using CSS Grid and Flexbox with 'minmax(0, 1fr)' tracks, token-based gaps, logical properties ('padding-inline', 'padding-block'), and 'margin-inline: auto'.
+* **v1.4.0** (September 3, 2026)
+  * **Enhanced interactive states:** Added 'hover', 'focus-visible', and 'active' styles to buttons, navigation links, cards, and all form controls, alongside a global focus ring for keyboard accessibility.
+* **v1.5.0** (September 6, 2026)
+  * **Restructured breakpoints:** Replaced the single 860px media query with a tiered system for mobile (≤600px), tablet (601–900px), desktop (901px+), and wide (1400px+) views, and added a print stylesheet.
+* **v1.6.0** (September 9, 2026)
+  * **Optimized tablet layouts:** Updated two-column blocks to stack on tablet screens after testing revealed a large empty gap next to the enquiry form at 768px.
+* **v1.7.0** (September 12, 2026)
+  * **Adopted relative units:** Swapped out 'px' values for 'rem', 'em', '%', 'ch', 'vw', and 'clamp()' across all typography, spacing, container widths, and section padding.
+* **v1.8.0** (September 14, 2026)
+  * **Implemented responsive images:** Generated 800px and 1200px image variants, utilizing the 'picture' element with media conditions for the hero section and 'srcset/sizes' for other photos.
+* **v2.0.0** (September 16, 2026)
+  * **Responsive testing evidence:** Captured and embedded 3 validation screenshots (1 page across desktop, tablet, and mobile views) stored in the images/screenshots/ directory.
+  * **Content correction:** Updated two outdated @verdura.co.za email addresses to @nourishandbloom.co.za on the contact page.
+
 
 ## References
 Afrihost, 2026. Shared web hosting packages. [online] Available at: https://www.afrihost.com [Accessed 12 August 2026]. 
@@ -144,26 +166,24 @@ Afrihost, 2026. Shared web hosting packages. [online] Available at: https://www.
 Coyier, C., 2026. _A Complete Guide to Flexbox._ [online] CSS-Tricks. Available at:
   <https://css-tricks.com/snippets/css/a-guide-to-flexbox/> [Accessed 10 September 2026].
 
+Mozilla, 2026. _CSS: Cascading Style Sheets._ [online] MDN Web Docs. Available at:
+  <https://developer.mozilla.org/en-US/docs/Web/CSS> [Accessed 5 September 2026].
+  
+  Mozilla, 2026. _CSS Grid Layout._ [online] MDN Web Docs. Available at:
+  <https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_grid_layout> [Accessed 6 September 2026].
+  
 Mozilla, 2026. HTML: Hypertext Markup Language. [online] MDN Web Docs. Available at: https://developer.mozilla.org/en-US/docs/Web/HTML [Accessed 12 August 2026]. 
-
-OpenStreetMap Contributors, 2026. OpenStreetMap. [online] Available at: https://www.openstreetmap.org [Accessed 12 August 2026]. 
 
 Mozilla, 2026. _HTML: HyperText Markup Language._ [online] MDN Web Docs. Available at:
 <https://developer.mozilla.org/en-US/docs/Web/HTML> [Accessed 15 August 2026].
 
-Mozilla, 2026. _CSS: Cascading Style Sheets._ [online] MDN Web Docs. Available at:
-  <https://developer.mozilla.org/en-US/docs/Web/CSS> [Accessed 5 September 2026].
-  
- Mozilla, 2026. _Using CSS custom properties (variables)._ [online] MDN Web Docs. Available at:
-  <https://developer.mozilla.org/en-US/docs/Web/CSS/Using_CSS_custom_properties> [Accessed 5 September 2026].
-  
-Mozilla, 2026. _CSS Grid Layout._ [online] MDN Web Docs. Available at:
-  <https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_grid_layout> [Accessed 6 September 2026].
-  
 Mozilla, 2026. _Responsive images._ [online] MDN Web Docs. Available at:
   <https://developer.mozilla.org/en-US/docs/Web/HTML/Responsive_images> [Accessed 8 September 2026].
+
+  Mozilla, 2026. _Using CSS custom properties (variables)._ [online] MDN Web Docs. Available at:
+  <https://developer.mozilla.org/en-US/docs/Web/CSS/Using_CSS_custom_properties> [Accessed 5 September 2026].
   
- Mozilla, 2026. _Using media queries._ [online] MDN Web Docs. Available at:
+  Mozilla, 2026. _Using media queries._ [online] MDN Web Docs. Available at:
   <https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_media_queries/Using_media_queries> [Accessed 8 September 2026].
   
 OpenStreetMap Contributors, 2026. _OpenStreetMap._ [online] Available at:
