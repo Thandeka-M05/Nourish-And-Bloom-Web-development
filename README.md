@@ -46,7 +46,7 @@ To provide more research about the website I am doing.
 To add more to my GitHub by pushing multiple descriptive commits.
 To add more to my changelog section contains a record of development.
 
-## Part 2 — CSS Styling and Responsive Design
+## Part 2: CSS Styling and Responsive Design
 ### External stylesheet
 All five pages link one external stylesheet, ../CSS/stylesheet, using the naming
 convention lowercase-hyphenated for every class such as .site-header, .page-head,
