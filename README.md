@@ -169,10 +169,10 @@ Mozilla, 2026. _Responsive images._ [online] MDN Web Docs. Available at:
 OpenStreetMap Contributors, 2026. _OpenStreetMap._ [online] Available at:
   <https://www.openstreetmap.org> [Accessed 9 September 2026]. Licensed under ODbL.
   
-Specialty Coffee Association, 2025. Coffee Standards. [online] Available at: https://sca.coffee [Accessed 12 August 2026].
+Specialty Coffee Association, 2025. Coffee Standards. [online] Available at: https://sca.coffee [Accessed 20 August 2026].
   
 W3C, 2026. _Web Content Accessibility Guidelines (WCAG) 2.2._ [online] Available at:
-  <https://www.w3.org/TR/WCAG22/> [Accessed 15 August 2026].
+  <https://www.w3.org/TR/WCAG22/> [Accessed 24 August 2026].
   
 W3C, 2026. _CSS Values and Units Module Level 4._ [online] Available at:
   <https://www.w3.org/TR/css-values-4/> [Accessed 15 August 2026].
