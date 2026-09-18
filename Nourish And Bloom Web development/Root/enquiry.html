@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Enquiry | Nourish and Bloom, Sandton</title>
+    <meta
+      name="description"
+      content="Enquire about catering, private terrace bookings and workshop packages at Nourish and Bloom in Sandton." />
+    <link rel="icon" type="image/png" href="../Images/Logo.png" />
+    <link rel="stylesheet" href="../CSS/style.css">
+</head>
+<body>
+
+    <!-- HEADER + NAVIGATION -->
+    <header class="site-header">
+      <div class="container">
+        <a class="brand" href="index.html">
+          <img class="brand-mark" src="../Images/Logo.png" alt="Nourish and Bloom leaf and sun logo" width="160" height="160" />
+          <span class="brand-text">
+            <span class="brand-name">Nourish <span class="brand-amp">And</span> Bloom</span>
+            <span class="brand-tagline">Wellness Cafe And Rooftop Garden</span>
+          </span>
+        </a>
+         <!-- Pure CSS hamburger: these links open/close the menu via :target -->
+        <a class="nav-toggle" href="#primary-nav" aria-label="Open menu"><span class="bars" aria-hidden="true"></span></a>
+        <a class="nav-close" href="#" aria-label="Close menu"><span class="bars" aria-hidden="true"></span></a>
+        <nav class="site-nav" id="primary-nav" aria-label="Primary">
+       
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="menu.html">Menu</a></li>
+            <li><a class="active" href="#">Enquiry</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <!-- PAGE BANNER -->
+      <section class="page-head">
+        <div class="container">
+          <span class="label">Enquiry</span>
+          <h1>Tell us what you are planning.</h1>
+          <p>
+            Catering, private terrace hire, workshop packages or a standing office order &mdash;
+            send the details and we will reply within one working day.
+          </p>
+        </div>
+      </section>
+
+      <!-- SERVICES + FORM -->
+      <section class="section">
+        <div class="container grid grid-2">
+          <div>
+            <span class="label">What we offer</span>
+            <hr class="rule" />
+            <h2>What We Offer</h2>
+            <p><b>Breakfast Catering:</b> Platters of pastries, seed crackers, fruit and
+            cold-press bottles delivered anywhere in the Sandton CBD from 07:00.</p>
+            <p><b>Private Terrace Hire:</b> The rooftop seats forty seated or sixty
+            standing, available for exclusive use on weekday evenings and Sunday afternoons.</p>
+            <p><b>Garden Workshops:</b> Ninety-minute herb-growing and fermentation
+            sessions for groups of eight to twenty.</p>
+            <p><b>Office Subscriptions:</b> Weekly cold-press deliveries billed monthly on
+            a single invoice.</p>
+          </div>
+
+          <!-- Online booking / enquiry form -->
+          <form
+            class="form"
+            data-endpoint="/api/public/enquiry"
+            action="/api/public/enquiry"
+            method="post"
+          >
+            <div class="field">
+              <label for="name">Full name</label>
+              <input type="text" id="name" name="name" required />
+            </div>
+
+            <div class="field">
+              <label for="email">Email address</label>
+              <input type="email" id="email" name="email" required />
+            </div>
+
+            <div class="field">
+              <label for="phone">Contact number</label>
+              <input type="tel" id="phone" name="phone" placeholder="011 000 0000" />
+            </div>
+
+            <div class="field">
+              <label for="type">Type of enquiry</label>
+              <select id="type" name="type">
+                <option value="catering">Breakfast catering</option>
+                <option value="terrace">Private terrace hire</option>
+                <option value="workshop">Garden workshop</option>
+                <option value="subscription">Office subscription</option>
+                <option value="other">Something else</option>
+              </select>
+            </div>
+
+            <div class="field">
+              <label for="guests">Number of guests</label>
+              <input type="number" id="guests" name="guests" min="1" max="60" value="10" />
+            </div>
+
+            <div class="field">
+              <label for="date">Preferred date</label>
+              <input type="date" id="date" name="date" required />
+            </div>
+
+            <fieldset>
+              <legend>Dietary requirements</legend>
+              <label class="check"><input type="checkbox" name="diet" value="vegan" /> Vegan</label>
+              <label class="check">
+                <input type="checkbox" name="diet" value="gluten-free" /> Gluten free
+              </label>
+              <label class="check">
+                <input type="checkbox" name="diet" value="halaal" /> Halaal
+              </label>
+              <label class="check">
+                <input type="checkbox" name="diet" value="nut-free" /> Nut free
+              </label>
+            </fieldset>
+
+            <div class="field">
+              <label for="message">Details of your enquiry</label>
+              <textarea id="message" name="message" required></textarea>
+            </div>
+
+            <button class="btn" type="submit">Send enquiry</button>
+            <p class="form-note"></p>
+          </form>
+        </div>
+      </section>
+    </main>
+
+    <!-- FOOTER -->
+    <footer class="site-footer">
+      <div class="container">
+        <div class="grid grid-3">
+          <div>
+            <h4>Nourish and Bloom</h4>
+            <p>
+              12 Maude Street, Sandton Central<br />
+              Johannesburg, 2196
+            </p>
+          </div>
+          <div>
+            <h4>Explore</h4>
+            <ul>
+              <li><a href="index.html">Home</a></li>
+              <li><a href="about.html">About</a></li>
+              <li><a href="menu.html">Menu</a></li>
+              <li><a href="#">Enquiry</a></li>
+              <li><a href="contact.html">Contact</a></li>
+            </ul>
+          </div>
+          <div>
+            <h4>Hours</h4>
+            <p>
+              Monday to Friday 06:30 &ndash; 18:00<br />
+              Saturday 07:30 &ndash; 16:00<br />
+              Sunday 08:00 &ndash; 14:00
+            </p>
+          </div>
+        </div>
+        <p class="footer-bottom">
+          &copy; 2026 Nourish and Bloom.
+        </p>
+      </div>
+    </footer>
+
+</body>
+</html>
