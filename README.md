@@ -115,7 +115,6 @@ widths use '%' and minmax(0, 1fr), and text measure uses 'ch' ('max-width:
 
 
 ## Changelog
-## 📋 Changelog
 
 ### Part 1: Initial Development & Structure
 
