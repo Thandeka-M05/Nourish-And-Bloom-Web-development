@@ -197,4 +197,3 @@ W3C, 2026. _Web Content Accessibility Guidelines (WCAG) 2.2._ [online] Available
 W3C, 2026. _CSS Values and Units Module Level 4._ [online] Available at:
   <https://www.w3.org/TR/css-values-4/> [Accessed 15 August 2026].
   
-W3C, 2026. Web Content Accessibility Guidelines (WCAG) 2.2. [online] Available at: https://www.w3.org/TR/WCAG22/ [Accessed 12 August 2026]. 
