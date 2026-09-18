@@ -141,6 +141,9 @@ widths use '%' and minmax(0, 1fr), and text measure uses 'ch' ('max-width:
 ## References
 Afrihost, 2026. Shared web hosting packages. [online] Available at: https://www.afrihost.com [Accessed 12 August 2026]. 
 
+Coyier, C., 2026. _A Complete Guide to Flexbox._ [online] CSS-Tricks. Available at:
+  <https://css-tricks.com/snippets/css/a-guide-to-flexbox/> [Accessed 15 August 2026].
+
 Mozilla, 2026. HTML: Hypertext Markup Language. [online] MDN Web Docs. Available at: https://developer.mozilla.org/en-US/docs/Web/HTML [Accessed 12 August 2026]. 
 
 OpenStreetMap Contributors, 2026. OpenStreetMap. [online] Available at: https://www.openstreetmap.org [Accessed 12 August 2026]. 
@@ -163,8 +166,10 @@ Mozilla, 2026. _Responsive images._ [online] MDN Web Docs. Available at:
  Mozilla, 2026. _Using media queries._ [online] MDN Web Docs. Available at:
   <https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_media_queries/Using_media_queries> [Accessed 15 August 2026].
   
-Coyier, C., 2026. _A Complete Guide to Flexbox._ [online] CSS-Tricks. Available at:
-  <https://css-tricks.com/snippets/css/a-guide-to-flexbox/> [Accessed 15 August 2026].
+OpenStreetMap Contributors, 2026. _OpenStreetMap._ [online] Available at:
+  <https://www.openstreetmap.org> [Accessed 15 August 2026]. Licensed under ODbL.
+  
+Specialty Coffee Association, 2025. Coffee Standards. [online] Available at: https://sca.coffee [Accessed 12 August 2026].
   
 W3C, 2026. _Web Content Accessibility Guidelines (WCAG) 2.2._ [online] Available at:
   <https://www.w3.org/TR/WCAG22/> [Accessed 15 August 2026].
@@ -172,11 +177,4 @@ W3C, 2026. _Web Content Accessibility Guidelines (WCAG) 2.2._ [online] Available
 W3C, 2026. _CSS Values and Units Module Level 4._ [online] Available at:
   <https://www.w3.org/TR/css-values-4/> [Accessed 15 August 2026].
   
-OpenStreetMap Contributors, 2026. _OpenStreetMap._ [online] Available at:
-  <https://www.openstreetmap.org> [Accessed 15 August 2026]. Licensed under ODbL.
-  
--Specialty Coffee Association, 2025. Coffee Standards. [online] Available at: https://sca.coffee [Accessed 12 August 2026]. 
-
-Statistics South Africa, 2025. General Household Survey. Pretoria: Statistics South Africa. 
-
 W3C, 2026. Web Content Accessibility Guidelines (WCAG) 2.2. [online] Available at: https://www.w3.org/TR/WCAG22/ [Accessed 12 August 2026]. 
