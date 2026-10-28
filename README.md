@@ -117,6 +117,9 @@ widths use '%' and minmax(0, 1fr), and text measure uses 'ch' ('max-width:
 ## Feedback on part 2
 My feedback on part 2 was exceptional excellent work there was nothing to be fixed or changed as I got full marks 100%.
 
+## JavaScript enhancements
+- **Accordion**:FAQ on about.html using accessible aria-expanded buttons.
+
 ## Changelog
 
 ### Part 1: Initial Development & Structure
