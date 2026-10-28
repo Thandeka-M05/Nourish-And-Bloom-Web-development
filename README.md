@@ -125,6 +125,11 @@ My feedback on part 2 was exceptional excellent work there was nothing to be fix
 - **Dynamic content**:weekly specials loaded from data/specials.json and built with DOM methods.
 - **Search, filter and sort**:live menu search, vegan filter and price sorting on menu.html.
 
+## Forms and validation
+- enquiry.html: JavaScript validation (name length, email format, 10-digit SA phone, guests 1–60, no past dates, message length), inline error messages and JSON submission to /api/public/enquiry. The endpoint returns a receipt reference and confirmation; it does not send email or calculate a quote.
+- contact.html: Name, email, phone, message type and message; once validated the details are compiled into an email to hello@nourishandbloom.co.za (mailto: action).
+
+
 
 ## Changelog
 
