@@ -122,6 +122,9 @@ My feedback on part 2 was exceptional excellent work there was nothing to be fix
 - **Lightbox gallery**: New gallery on index.html and all menu photographs open in a full-screen viewer (click, Enter, Escape to close).
 - **Interactive map**: Leaflet 1.9.4 map on contact.html with markers for both Sandton locations.
 - **Animations**: Intersection Observer scroll-reveal plus CSS transitions/keyframes.
+- **Dynamic content**:weekly specials loaded from data/specials.json and built with DOM methods.
+- **Search, filter and sort**:live menu search, vegan filter and price sorting on menu.html.
+
 
 ## Changelog
 
