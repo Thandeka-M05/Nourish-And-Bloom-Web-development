@@ -119,6 +119,9 @@ My feedback on part 2 was exceptional excellent work there was nothing to be fix
 
 ## JavaScript enhancements
 - **Accordion**:FAQ on about.html using accessible aria-expanded buttons.
+- **Lightbox gallery**: New gallery on index.html and all menu photographs open in a full-screen viewer (click, Enter, Escape to close).
+- **Interactive map**: Leaflet 1.9.4 map on contact.html with markers for both Sandton locations.
+- **Animations**: Intersection Observer scroll-reveal plus CSS transitions/keyframes.
 
 ## Changelog
 
