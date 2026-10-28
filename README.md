@@ -113,6 +113,9 @@ widths use '%' and minmax(0, 1fr), and text measure uses 'ch' ('max-width:
 - **Mobile View (375px - 480px)**
 <img width="582" height="897" alt="Mobile View" src="https://github.com/user-attachments/assets/f8e9e3ea-a5eb-4b21-96c8-e7413f553520" />
 
+ ## Part 3:Enhancing Functionality and SEO
+## Feedback on part 2
+My feedback on part 2 was exceptional excellent work there was nothing to be fixed or changed as I got full marks 100%.
 
 ## Changelog
 
@@ -158,7 +161,6 @@ widths use '%' and minmax(0, 1fr), and text measure uses 'ch' ('max-width:
   * **Responsive testing evidence:** Captured and embedded 3 validation screenshots (1 page across desktop, tablet, and mobile views) stored in the images/screenshots/ directory.
   * **Content correction:** Updated two outdated @verdura.co.za email addresses to @nourishandbloom.co.za on the contact page.
 
- ## Part 3 — Enhancing Functionality and SEO
 
 
 
