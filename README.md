@@ -129,6 +129,12 @@ My feedback on part 2 was exceptional excellent work there was nothing to be fix
 - enquiry.html: JavaScript validation (name length, email format, 10-digit SA phone, guests 1–60, no past dates, message length), inline error messages and JSON submission to /api/public/enquiry. The endpoint returns a receipt reference and confirmation; it does not send email or calculate a quote.
 - contact.html: Name, email, phone, message type and message; once validated the details are compiled into an email to hello@nourishandbloom.co.za (mailto: action).
 
+## SEO
+- Keyword-led 'title', meta description and keywords per page; canonical URLs; Open Graph/Twitter tags.
+- Single H1 per page with H2/H3 hierarchy; descriptive image file names and alt text; clean `.html` URLs; internal links in FAQ and footers; mobile-first responsive layout.
+- Off-page plan: Google Business Profile, Instagram/Facebook posts, listings on Sandton lifestyle blogs for backlinks.
+- `robots.txt` and `sitemap.xml` added.
+- Page speed: responsive images, lazy loading, deferred scripts. Security: `referrer` policy, no inline user HTML (`textContent` only), client- and server-side validation.
 
 
 ## Changelog
