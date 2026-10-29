@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Menu | Nourish and Bloom, Sandton</title>
+    <link rel="icon" type="image/png" href="../Images/Logo.png" />
+    <link rel="stylesheet" href="../CSS/style.css" />
+    <script src="../JavaScript/script.js"></script>
+</head>
+<body>
+
+    <header class="site-header">
+      <div class="container">
+        <a class="brand" href="index.html">
+          <img class="brand-mark" src="../Images/Logo.png" alt="Nourish and Bloom logo" width="160" height="160" />
+          <span class="brand-text">
+            <span class="brand-name">Nourish <span class="brand-amp">&amp;</span> Bloom</span>
+          </span>
+        </a>
+        <button class="nav-toggle" aria-expanded="false" aria-controls="primary-nav" aria-label="Open menu">
+      <span class="bars"></span>
+    </button>
+
+    <nav class="site-nav" id="primary-nav" aria-label="Primary">
+      <!-- CLOSE BUTTON INSIDE MOBILE DRAWER -->
+      <button class="nav-close" aria-label="Close menu">
+        <span class="bars"></span>
+      </button>
+          <ul>
+              <li><a href="index.html">Home</a></li>
+              <li><a href="about.html">About</a></li>
+              <li><a class="active" href="#">Menu</a></li>
+              <li><a href="enquiry.html">Enquiry</a></li>
+              <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <section class="page-head">
+        <div class="container">
+          <span class="label">Menu</span>
+          <h1>Cut this morning, served all day.</h1>
+        </div>
+      </section>
+
+      <section class="section menu-tools-wrap">
+        <div class="container">
+          <form class="menu-tools" role="search" onsubmit="return false">
+            <div class="field"><label for="menu-search">Search menu</label><input type="search" id="menu-search" placeholder="Try 'turmeric' or 'bowl'" /></div>
+            <div class="field"><label for="menu-filter">Dietary filter</label><select id="menu-filter"><option value="">Everything</option><option value="vegan">Vegan only</option></select></div>
+            <div class="field"><label for="menu-sort">Sort by</label><select id="menu-sort"><option value="">Menu order</option><option value="low">Price: low to high</option><option value="high">Price: high to low</option></select></div>
+          </form>
+          <p class="form-note" id="menu-count" aria-live="polite"></p>
+        </div>
+      </section>
+
+      <!-- FOODS AND DRINKS IMAGE -->
+      <section class="section">
+        <div class="container">
+          <img
+            class="hero-photo" data-lightbox
+            data-caption="Overhead spread of green smoothie bowls, fresh citrus, and seeded loaves"
+            src="../Images/Foods and drinks.png"
+            alt="Overhead spread of green smoothie bowls, fresh citrus, and seeded loaves"
+            width="800"
+            height="600"
+          />
+        </div>
+      </section>
+
+      <!-- JUICE AND SODAS -->
+      <section class="section section-alt">
+        <div class="container">
+          <span class="label">Cold press &amp; ferments</span>
+          <hr class="rule" />
+          <h2>Juices and sodas</h2>
+          <img
+            class="menu-photo" data-lightbox
+            data-caption="Cold-pressed juices and house kombucha with fresh citrus and mint"
+            src="../Images/Juice and sodas.png"
+            alt="Cold-pressed juices and house kombucha"
+            width="800"
+            height="600"
+          />
+
+          <ul class="menu-list">
+            <li><span><span class="item-name">Rooftop Green</span><span class="item-desc">Cucumber, apple, celery, sorrel, lime</span></span><span class="price">R64</span></li>
+            <li><span><span class="item-name">Marigold Citrus <span class="tag">Signature</span></span><span class="item-desc">Orange, carrot, turmeric, ginger, black pepper</span></span><span class="price">R68</span></li>
+          </ul>
+        </div>
+      </section>
+
+      <!-- BOWLS AND PLATES -->
+      <section class="section">
+        <div class="container">
+          <span class="label">From the garden</span>
+          <hr class="rule" />
+          <h2>Bowls and plates</h2>
+          <div class="grid grid-2" style="margin-bottom: 1.5rem;">
+            <img class="menu-photo" data-lightbox data-caption="Garden grain bowls, green shakshuka, and avocado toast" src="../Images/Bowls and plates.png" alt="Garden grain bowls and shakshuka" width="800" height="600" />
+            <img class="menu-photo" data-lightbox data-caption="Breakfast smoothie bowl topped with fresh strawberries, mango, and blueberries" src="../Images/Breakfast Smoothie Bowl.jpg" alt="Breakfast smoothie bowl with fresh berries" width="800" height="600" />
+          </div>
+
+          <ul class="menu-list">
+            <li><span><span class="item-name">Garden Grain Bowl <span class="tag">Vegan</span></span><span class="item-desc">Barley, roast pumpkin, rooftop leaves, seed crumble</span></span><span class="price">R129</span></li>
+            <li><span><span class="item-name">Green Shakshuka</span><span class="item-desc">Baked eggs, spinach, courgette, feta, sourdough soldiers</span></span><span class="price">R142</span></li>
+          </ul>
+        </div>
+      </section>
+
+      <!-- COFFEE AND INFUSIONS -->
+      <section class="section section-alt">
+        <div class="container">
+          <span class="label">Slow coffee</span>
+          <hr class="rule" />
+          <h2>Coffee and infusions</h2>
+          <img class="menu-photo" data-lightbox data-caption="Flat white coffee with latte art, golden oat latte, and fresh herbal tea" src="../Images/Coffee and infusions.png" alt="Coffee and infusions" width="800" height="600" />
+          <ul class="menu-list">
+            <li><span><span class="item-name">Flat White</span><span class="item-desc">Gauteng dairy, or oat milk at no extra charge</span></span><span class="price">R42</span></li>
+            <li><span><span class="item-name">Golden Oat Latte</span><span class="item-desc">Turmeric, cinnamon, vanilla, oat milk</span></span><span class="price">R52</span></li>
+          </ul>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container">
+      <div class="grid grid-3">
+          <div>
+            <h4>Nourish and Bloom</h4>
+            <p>12 Maude Street, Sandton Central<br />Johannesburg, 2196</p>
+          </div>
+          <div>
+            <h4>Sitemap &amp; Navigation</h4>
+            <ul>
+              <li><a href="index.html">Home</a></li>
+              <li><a href="about.html">About Us</a></li>
+              <li><a href="#">Our Menu</a></li>
+              <li><a href="enquiry.html">Enquiry &amp; Bookings</a></li>
+              <li><a href="contact.html">Contact &amp; Map</a></li>
+            </ul>
+          </div>
+          <div>
+            <h4>Trading Hours</h4>
+            <p>Mon&ndash;Fri: 06:30 &ndash; 18:00<br />Saturday: 07:30 &ndash; 16:00<br />Sunday: 08:00 &ndash; 14:00</p>
+          </div>
+        </div>
+        <p class="footer-bottom">&copy; 2026 Nourish and Bloom. All rights reserved.</p>
+    </footer>
+    <script src="JS/main.js" defer></script>
+</body>
+</html>
