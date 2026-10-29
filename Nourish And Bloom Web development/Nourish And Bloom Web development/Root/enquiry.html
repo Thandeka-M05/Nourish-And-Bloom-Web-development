@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Enquiry | Nourish and Bloom, Sandton</title>
+    <link rel="icon" type="image/png" href="../Images/Logo.png" />
+    <link rel="stylesheet" href="../CSS/style.css">
+    <script src="../JavaScript/script.js"></script>
+</head>
+<body>
+
+    <header class="site-header">
+      <div class="container">
+        <a class="brand" href="index.html">
+          <img class="brand-mark" src="../Images/Logo.png" alt="Nourish and Bloom logo" width="160" height="160" />
+          <span class="brand-text"><span class="brand-name">Nourish <span class="brand-amp">&amp;</span> Bloom</span></span>
+        </a>
+        <button class="nav-toggle" aria-expanded="false" aria-controls="primary-nav" aria-label="Open menu">
+      <span class="bars"></span>
+    </button>
+
+    <nav class="site-nav" id="primary-nav" aria-label="Primary">
+      <!-- CLOSE BUTTON INSIDE MOBILE DRAWER -->
+      <button class="nav-close" aria-label="Close menu">
+        <span class="bars"></span>
+      </button>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="menu.html">Menu</a></li>
+            <li><a class="active" href="#">Enquiry</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <section class="page-head">
+        <div class="container">
+          <span class="label">Enquiry</span>
+          <h1>Tell us what you are planning.</h1>
+        </div>
+      </section>
+
+      <section class="section">
+        <div class="container grid grid-2">
+          <div>
+            <span class="label">What we offer</span>
+            <hr class="rule" />
+            <h2>Event &amp; Catering Bookings</h2>
+            <p><b>Breakfast Catering:</b> Deliveries across the Sandton CBD from 07:00.</p>
+            <p><b>Private Terrace Hire:</b> Available for exclusive evening and weekend bookings (seats up to 60 standing).</p>
+          </div>
+
+          <form class="form" id="enquiry-form" novalidate>
+            <div class="field">
+              <label for="name">Full name</label>
+              <input type="text" id="name" name="name" required />
+            </div>
+
+            <div class="field">
+              <label for="email">Email address</label>
+              <input type="email" id="email" name="email" required />
+            </div>
+
+            <div class="field">
+              <label for="type">Type of enquiry</label>
+              <select id="type" name="type">
+                <option value="catering">Breakfast catering</option>
+                <option value="terrace">Private terrace hire</option>
+                <option value="workshop">Garden workshop</option>
+              </select>
+            </div>
+
+            <div class="field">
+              <label for="guests">Number of guests</label>
+              <input type="number" id="guests" name="guests" min="1" max="60" value="10" />
+            </div>
+
+            <div class="field">
+              <label for="date">Preferred date</label>
+              <input type="date" id="date" name="date" />
+            </div>
+
+            <div class="field">
+              <label for="message">Details of your enquiry</label>
+              <textarea id="message" name="message" required></textarea>
+            </div>
+
+            <button class="btn" type="submit">Send enquiry</button>
+            <p class="form-note"></p>
+          </form>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container">
+      <div class="grid grid-3">
+          <div>
+            <h4>Nourish and Bloom</h4>
+            <p>12 Maude Street, Sandton Central<br />Johannesburg, 2196</p>
+          </div>
+          <div>
+            <h4>Sitemap &amp; Navigation</h4>
+            <ul>
+              <li><a href="index.html">Home</a></li>
+              <li><a href="about.html">About Us</a></li>
+              <li><a href="menu.html">Our Menu</a></li>
+              <li><a href="#">Enquiry &amp; Bookings</a></li>
+              <li><a href="contact.html">Contact &amp; Map</a></li>
+            </ul>
+          </div>
+          <div>
+            <h4>Trading Hours</h4>
+            <p>Mon&ndash;Fri: 06:30 &ndash; 18:00<br />Saturday: 07:30 &ndash; 16:00<br />Sunday: 08:00 &ndash; 14:00</p>
+          </div>
+        </div>
+        <p class="footer-bottom">&copy; 2026 Nourish and Bloom. All rights reserved.</p>
+    </footer>
+    <script src="JS/main.js" defer></script>
+</body>
+</html>
