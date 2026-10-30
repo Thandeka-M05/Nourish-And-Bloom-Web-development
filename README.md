@@ -181,8 +181,17 @@ My feedback on part 2 was exceptional excellent work there was nothing to be fix
   * **Responsive testing evidence:** Captured and embedded 3 validation screenshots (1 page across desktop, tablet, and mobile views) stored in the images/screenshots/ directory.
   * **Content correction:** Updated two outdated @verdura.co.za email addresses to @nourishandbloom.co.za on the contact page.
 
-
-
+## Part 3: JavaScript and form Implementations
+* **v2.1.0** (October 28, 2026)
+  * **GitHub Pages routing**: Implemented a root-level `index.html` redirection script to seamlessly route visitors from the main domain into the nested academic subfolder structure without altering the folder hierarchy.
+* **v2.2.0** (October 29, 2026)
+  * **Jekyll bypass configuration**: Added an empty `.nojekyll` file to the repository root directory to prevent GitHub's static site generator from ignoring folders containing spaces or capital letters.
+* **v2.3.0** (October 30, 2026)
+  * **SEO files correction**: Standardized and corrected filenames for `robots.txt` and `sitemap.xml`, configuring precise paths and absolute URLs for index, about, menu, enquiry, and contact pages.
+* **v2.4.0** (October 30, 2026)
+  * **Deep nested path resolution**: Updated redirection logic and absolute XML locator links to accurately target the inner `Root/` directory where core HTML views, stylesheets, and JavaScript files reside.
+* **v2.5.0** (October 30, 2026)
+  * **Production verification**: Validated dual-link submission readiness, confirming both the repository code structure and the live GitHub Pages deployment link for academic evaluation.
 
 ## References
 Afrihost, 2026. Shared web hosting packages. [online] Available at: https://www.afrihost.com [Accessed 12 August 2026].
