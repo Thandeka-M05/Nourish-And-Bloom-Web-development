@@ -115,7 +115,7 @@ widths use '%' and minmax(0, 1fr), and text measure uses 'ch' ('max-width:
 
  ## Part 3:Enhancing Functionality and SEO
 ## Feedback on part 2
-My feedback on part 2 was exceptional excellent work there was nothing to be fixed or changed as I got full marks 100%.
+My feedback on part 2 was exceptional excellent work there was nothing to be fixed or changed as I got full marks 100% this showed that I followed the rubric and instructions correctly and effectively which resulted in my my work to be efficient and correct.
 
 ## JavaScript enhancements
 - **Accordion**:FAQ on about.html using accessible aria-expanded buttons.
