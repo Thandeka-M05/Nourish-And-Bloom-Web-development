@@ -185,39 +185,38 @@ My feedback on part 2 was exceptional excellent work there was nothing to be fix
 
 
 ## References
-Afrihost, 2026. Shared web hosting packages. [online] Available at: https://www.afrihost.com [Accessed 12 August 2026]. 
+Afrihost, 2026. Shared web hosting packages. [online] Available at: https://www.afrihost.com [Accessed 12 August 2026].
 
-Coyier, C., 2026. _A Complete Guide to Flexbox._ [online] CSS-Tricks. Available at:
-  <https://css-tricks.com/snippets/css/a-guide-to-flexbox/> [Accessed 10 September 2026].
+Agafonkin, V., 2026. Leaflet 1.9.4. [online] Available at: https://leafletjs.com [Accessed 10 October 2026].
 
-Mozilla, 2026. _CSS: Cascading Style Sheets._ [online] MDN Web Docs. Available at:
-  <https://developer.mozilla.org/en-US/docs/Web/CSS> [Accessed 5 September 2026].
-  
-  Mozilla, 2026. _CSS Grid Layout._ [online] MDN Web Docs. Available at:
-  <https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_grid_layout> [Accessed 6 September 2026].
-  
-Mozilla, 2026. HTML: Hypertext Markup Language. [online] MDN Web Docs. Available at: https://developer.mozilla.org/en-US/docs/Web/HTML [Accessed 12 August 2026]. 
+Coyier, C., 2026. A Complete Guide to Flexbox. [online] CSS-Tricks. Available at: https://css-tricks.com/snippets/css/a-guide-to-flexbox/ [Accessed 15 August 2026].
 
-Mozilla, 2026. _HTML: HyperText Markup Language._ [online] MDN Web Docs. Available at:
-<https://developer.mozilla.org/en-US/docs/Web/HTML> [Accessed 15 August 2026].
+Google, 2026. SEO Starter Guide. [online] Google Search Central. Available at: https://developers.google.com/search/docs/fundamentals/seo-starter-guide [Accessed 10 October 2026].
 
-Mozilla, 2026. _Responsive images._ [online] MDN Web Docs. Available at:
-  <https://developer.mozilla.org/en-US/docs/Web/HTML/Responsive_images> [Accessed 8 September 2026].
+Mozilla, 2026. Client-side form validation. [online] MDN Web Docs. Available at: https://developer.mozilla.org/en-US/docs/Learn/Forms/Form_validation [Accessed 10 October 2026].
 
-  Mozilla, 2026. _Using CSS custom properties (variables)._ [online] MDN Web Docs. Available at:
-  <https://developer.mozilla.org/en-US/docs/Web/CSS/Using_CSS_custom_properties> [Accessed 5 September 2026].
-  
-  Mozilla, 2026. _Using media queries._ [online] MDN Web Docs. Available at:
-  <https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_media_queries/Using_media_queries> [Accessed 8 September 2026].
-  
-OpenStreetMap Contributors, 2026. _OpenStreetMap._ [online] Available at:
-  <https://www.openstreetmap.org> [Accessed 9 September 2026]. Licensed under ODbL.
-  
+Mozilla, 2026. CSS: Cascading Style Sheets. [online] MDN Web Docs. Available at: https://developer.mozilla.org/en-US/docs/Web/CSS [Accessed 15 August 2026].
+
+Mozilla, 2026. CSS Grid Layout. [online] MDN Web Docs. Available at: https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_grid_layout [Accessed 15 August 2026].
+
+Mozilla, 2026. HTML: HyperText Markup Language. [online] MDN Web Docs. Available at: https://developer.mozilla.org/en-US/docs/Web/HTML [Accessed 15 August 2026].
+
+Mozilla, 2026. JavaScript. [online] MDN Web Docs. Available at: https://developer.mozilla.org/en-US/docs/Web/JavaScript [Accessed 30 October 2026].
+
+Mozilla, 2026. Responsive images. [online] MDN Web Docs. Available at: https://developer.mozilla.org/en-US/docs/Web/HTML/Responsive_images [Accessed 15 August 2026].
+
+Mozilla, 2026. Using CSS custom properties (variables). [online] MDN Web Docs. Available at: https://developer.mozilla.org/en-US/docs/Web/CSS/Using_CSS_custom_properties [Accessed 15 August 2026].
+
+Mozilla, 2026. Using media queries. [online] MDN Web Docs. Available at: https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_media_queries/Using_media_queries [Accessed 15 August 2026].
+
+OpenStreetMap Contributors, 2026. OpenStreetMap. [online] Available at: https://www.openstreetmap.org [Accessed 15 August 2026]. Licensed under ODbL.
+
+Sitemaps.org, 2026. Sitemaps XML format. [online] Available at: https://www.sitemaps.org/protocol.html [Accessed 10 October 2026].
+
 Specialty Coffee Association, 2025. Coffee Standards. [online] Available at: https://sca.coffee [Accessed 20 August 2026].
-  
-W3C, 2026. _Web Content Accessibility Guidelines (WCAG) 2.2._ [online] Available at:
-  <https://www.w3.org/TR/WCAG22/> [Accessed 24 August 2026].
-  
-W3C, 2026. _CSS Values and Units Module Level 4._ [online] Available at:
-  <https://www.w3.org/TR/css-values-4/> [Accessed 15 August 2026].
-  
+
+Statistics South Africa, 2025. General Household Survey. Pretoria: Stats SA.
+
+W3C, 2026. CSS Values and Units Module Level 4. [online] Available at: https://www.w3.org/TR/css-values-4/ [Accessed 15 August 2026].
+
+W3C, 2026. Web Content Accessibility Guidelines (WCAG) 2.2. [online] Available at: https://www.w3.org/TR/WCAG22/ [Accessed 15 August 2026].
