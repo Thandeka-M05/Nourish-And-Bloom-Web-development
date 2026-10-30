@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://thandeka-m05.github.io/Nourish-And-Bloom-Web-development/Nourish%20And%20Bloom%20Web%20development/sitemap.xml
